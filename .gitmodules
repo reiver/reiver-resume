@@ -1,0 +1,3 @@
+[submodule "components/html-include"]
+	path = components/html-include
+	url = https://github.com/reiver/html-include
