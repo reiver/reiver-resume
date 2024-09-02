@@ -30,24 +30,28 @@
 						color: rgb(0, 119, 181);
 					}
 
-					div.part > h1 {
+					div.part > h1, div.part > hgroup > h1 {
 						background-color:#3c3c3c;
 						color:white;
 					}
-					div.part > h1 {
+					div.part > h1, div.part > hgroup > h1 {
 						font-size: 13pt;
 						font-weight: normal;
 						text-transform:uppercase;
 					}
-					div.part > h1 {
+					div.part > h1, div.part > hgroup > h1 {
 						display: inline-block;
 						margin:0;
 						padding: 10px 35px;
 					}
+					div.part > hgroup > p {
+						text-align:center;
+						padding-top:40px;
+						font-size:140%;
+					}
 
 					div.part > div.part-content {
 						padding:20px;
-
 						padding-bottom:40px;
 					}
 
